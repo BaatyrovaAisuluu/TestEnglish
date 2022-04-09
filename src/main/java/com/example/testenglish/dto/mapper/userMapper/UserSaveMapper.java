@@ -18,6 +18,7 @@ public class UserSaveMapper implements Converter<UserDto, User> {
         Role role = new Role();
         role.setName("STUDENT");
         user.setRoles(role);
+
         return user;
     }
 }
